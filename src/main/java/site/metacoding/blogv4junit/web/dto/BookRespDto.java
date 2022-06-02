@@ -1,8 +1,12 @@
 package site.metacoding.blogv4junit.web.dto;
 
+import lombok.AllArgsConstructor;
 import lombok.Getter;
+import lombok.NoArgsConstructor;
 import site.metacoding.blogv4junit.domain.book.Book;
 
+@NoArgsConstructor
+@AllArgsConstructor
 @Getter
 public class BookRespDto {
     private Long id;
